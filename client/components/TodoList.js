@@ -17,7 +17,6 @@ const TodoList = ({tasks, input, setInput, addTask, deleteTask}) => <div classNa
 
     />
     <IoMdAddCircle
-      // Add an onClick method
       onClick={addTask}
       className='text-[#FFF] text-[50px] cursor-pointer ml-[20px] mb-[10px]'
     />
