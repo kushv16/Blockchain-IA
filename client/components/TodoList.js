@@ -10,7 +10,7 @@ const TodoList = ({tasks, input, setInput, addTask, deleteTask}) => <div classNa
   <div className='py-3 text-[#FFF]'>TASKS</div>
   <form className='flex items-center justify-center'>
     <input
-      className='rounded-[10px] w-full p-[10px] border-none outline-none bg-[#FFF] text-white mb-[10px]'
+      className='rounded-[10px] w-full p-[10px] border-none outline-none bg-[#FFF] text-black mb-[10px]'
       placeholder='Add a task...'
       value = {input}
       onChange={e => setInput(e.target.value)}
